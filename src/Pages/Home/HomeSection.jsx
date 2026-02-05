@@ -4,6 +4,7 @@ import contact from '../../assets/images/address-book-regular-full.svg';
 import instaicon from '../../assets/images/square-instagram-brands-solid-full2.svg';
 import giticon from '../../assets/images/square-github-brands-solid-full.svg';
 import discordicon from '../../assets/images/discord-brands-solid-full.svg';
+import { Link } from 'react-scroll';
 export function HomeSection(){
     return(
         <>
@@ -20,12 +21,23 @@ export function HomeSection(){
                         <div>PostgreSQL</div>
                     </div>
                     <div className='abou-cont'>
+                        <Link
+                        to='Portfolio'
+                        smooth="true"
+                        >
                         <div>Portfolio
                             <img src={portfolio} alt="image" />
                         </div>
-                        <div>Contact
+                        </Link>
+                        
+                        
+                        <Link
+                        to='Contact'
+                        smooth="true">
+                            <div>Contact
                             <img src={contact} alt="image" />
                         </div>
+                        </Link>
                     </div>
                     <div className='socio'>
                         <div className='github'>
