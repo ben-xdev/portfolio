@@ -30,7 +30,7 @@ export function HomeSection(){
                     <div className='socio'>
                         <div className='github'>
                             
-                            <a href=""><img src={giticon} alt="image" /></a>
+                            <a href="https://github.com/ben-xdev"><img src={giticon} alt="image" /></a>
                         </div>
                        
                         <div className='instagram'>

@@ -95,7 +95,7 @@ export function Portfolio(){
                             <div>Description: A simple web app to create, edit, and delete daily tasks.</div>
                             <div>Learned : JavaScript, DOM manipulation, LocalStorage</div>
                             <div className='github-icon-project'>
-                                <a href="#">Source Code</a>
+                                <a href="https://github.com/ben-xdev/To-do-list-js-">Source Code</a>
                                 <img src={github} alt="github" />
                             </div>
                         </div>
@@ -105,7 +105,7 @@ export function Portfolio(){
                         <div>Description: Check real-time weather for any city using an external API.</div>
                         <div>Learned : JavaScript, Fetch API, Responsive Design</div>
                         <div className='github-icon-project'>
-                                <a href="#">Source Code</a>
+                                <a href="https://github.com/ben-xdev/weather-checker">Source Code</a>
                                 <img src={github} alt="github" />
                         </div>
                 </div>
