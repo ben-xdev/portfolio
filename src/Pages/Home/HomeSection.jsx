@@ -29,14 +29,16 @@ export function HomeSection(){
                     </div>
                     <div className='socio'>
                         <div className='github'>
-                            <img src={giticon} alt="image" />
+                            
+                            <a href=""><img src={giticon} alt="image" /></a>
                         </div>
                        
                         <div className='instagram'>
-                            <img src={instaicon} alt="image" />
+                            <a href=""><img src={instaicon} alt="image" /></a>
+                            
                         </div>
                          <div className='discord'>
-                            <img src={discordicon} alt="image" />
+                            <a href=""><img src={discordicon} alt="image" /></a>
                         </div>
                     </div>
                 </div>

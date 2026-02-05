@@ -157,4 +157,6 @@
 
 .project-header-green{
     color: rgb(128, 247, 128) !important;
+    font-size:20px ;
+    font-weight: bold;
 }
