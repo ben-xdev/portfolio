@@ -1,0 +1,89 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 1000;
+    background-color:rgba(5, 4, 26, 0.1);
+    backdrop-filter: blur(5px);
+    
+
+   
+}
+
+.git-prof-link{
+    margin-left:2%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+
+.git-prof-link a{
+    text-decoration: none;
+    color: rgb(199, 194, 194);
+    background: linear-gradient(
+        45deg,
+        rgb(83, 7, 145),
+        rgb(162, 0, 255)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(199, 194, 194);
+    font-size: 12px;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 22px
+    
+
+}
+
+nav ul li a::after{
+ content: "";
+ width: 0;
+ height: 2px;
+ position: absolute;
+ left: 50%;
+ bottom: 0;
+ background: rgb(146, 6, 189);
+ transform: translateX(-50%);
+ transition: width 0.3s ease;
+
+}
+
+nav ul li a:hover::after{
+width: 100%;
+
+}
+
+
+.active-link{
+    color: rgb(146, 6, 189);
+}
+.nav-link{
+    cursor: pointer;
+}
