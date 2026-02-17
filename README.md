@@ -1,10 +1,8 @@
-# React + Vite
+# React 
 
 Ben’s Portfolio
 
 A personal portfolio website showcasing my projects, skills, and contact information. Built with React, JavaScript, HTML, and CSS.
-
-Check out the live site: Your Portfolio URL
 
 Features
 
